@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata Mio Foundation (MMF) - Donera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="C26A87CE-EBF1-4B5B-9240-E5002814B52B.png" alt="MMF Logo">
+        <h1>Mata Mio Foundation (MMF)</h1>
+        <p>Tillsammans ser vi till att ungdomar får mat</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Om oss</a>
+        <a href="donera.html">Donera</a>
+    </nav>
+
+    <div class="container">
+        <section class="donation-box">
+            <h2>Donera till MMF</h2>
+            <p>Varje bidrag hjälper oss att ge fler ungdomar tillgång till mat.  
+            Din gåva gör en konkret skillnad i deras vardag.</p>
+            
+            <p style="font-size: 1.5em; font-weight: bold; text-align: center; color: #145d44;">
+                📞 072-262 09 26
+            </p>
+            <p style="text-align: center;">Ring eller skicka SMS till vårt donationsnummer för att bidra.</p>
+
+            <!-- Donera-knapp -->
+            <div style="text-align: center;">
+                <a href="tel:0722620926" class="button">📲 Donera nu</a>
+            </div>
+
+            <p style="text-align: center;">Tack för att du hjälper oss att sprida hopp och matglädje! 💛</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mata Mio Foundation (MMF). Alla rättigheter förbehållna.</p>
+    </footer>
+
+</body>
+</html>

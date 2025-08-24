@@ -1,0 +1,17 @@
+.button {
+    display: inline-block;
+    background-color: #e6b800; /* gul nyans från loggan */
+    color: #0D3B2E; /* mörkgrön text */
+    font-weight: bold;
+    padding: 12px 24px;
+    margin: 20px auto;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #ffc107; /* ljusare gul vid hover */
+    transform: scale(1.05);
+}

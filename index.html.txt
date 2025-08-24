@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata Mio Foundation (MMF) - Om oss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="C26A87CE-EBF1-4B5B-9240-E5002814B52B.png" alt="MMF Logo">
+        <h1>Mata Mio Foundation (MMF)</h1>
+        <p>Tillsammans ser vi till att ungdomar får mat</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Om oss</a>
+        <a href="donera.html">Donera</a>
+    </nav>
+
+    <div class="container">
+        <section class="info-box">
+            <h2>Om Mata Mio Foundation</h2>
+            <p>Mata Mio Foundation (MMF) arbetar för att ge mat till ungdomar som behöver det mest.  
+            Vårt mål är att säkerställa att inga ungdomar går hungriga och att alla får näringsrika måltider varje dag.  
+            Genom donationer kan vi köpa mat och distribuera den till ungdomar i behov, och på så sätt göra en konkret skillnad i deras vardag.</p>
+            <p>Alla bidrag går direkt till våra matprogram, så att vi kan hjälpa fler ungdomar och sprida glädje och hälsa.</p>
+
+            <!-- Donera-knapp -->
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="donera.html" class="button">🍽️ Donera nu</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mata Mio Foundation (MMF). Alla rättigheter förbehållna.</p>
+    </footer>
+
+</body>
+</html>
