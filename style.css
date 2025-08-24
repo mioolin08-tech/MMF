@@ -1,7 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0D3B2E;
+    color: #fffbe6;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 120px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #145d44;
+}
+
+nav a {
+    color: #fffbe6;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #1e8c5a;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.info-box, .donation-box {
+    background-color: #fffbe6;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0D3B2E;
+    color: #fffbe6;
+}
+
 .button {
     display: inline-block;
-    background-color: #e6b800; /* gul nyans från loggan */
-    color: #0D3B2E; /* mörkgrön text */
+    background-color: #e6b800;
+    color: #0D3B2E;
     font-weight: bold;
     padding: 12px 24px;
     margin: 20px auto;
@@ -12,6 +76,12 @@
 }
 
 .button:hover {
-    background-color: #ffc107; /* ljusare gul vid hover */
+    background-color: #ffc107;
     transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
 }
